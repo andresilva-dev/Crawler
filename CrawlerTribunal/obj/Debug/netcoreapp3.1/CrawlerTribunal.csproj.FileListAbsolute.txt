@@ -1,0 +1,15 @@
+D:\Estudo Web\Crawling\CrawlerTribunal\CrawlerTribunal\bin\Debug\netcoreapp3.1\CrawlerTribunal.exe
+D:\Estudo Web\Crawling\CrawlerTribunal\CrawlerTribunal\bin\Debug\netcoreapp3.1\CrawlerTribunal.deps.json
+D:\Estudo Web\Crawling\CrawlerTribunal\CrawlerTribunal\bin\Debug\netcoreapp3.1\CrawlerTribunal.runtimeconfig.json
+D:\Estudo Web\Crawling\CrawlerTribunal\CrawlerTribunal\bin\Debug\netcoreapp3.1\CrawlerTribunal.runtimeconfig.dev.json
+D:\Estudo Web\Crawling\CrawlerTribunal\CrawlerTribunal\bin\Debug\netcoreapp3.1\CrawlerTribunal.dll
+D:\Estudo Web\Crawling\CrawlerTribunal\CrawlerTribunal\bin\Debug\netcoreapp3.1\CrawlerTribunal.pdb
+D:\Estudo Web\Crawling\CrawlerTribunal\CrawlerTribunal\bin\Debug\netcoreapp3.1\HtmlAgilityPack.NetCore.dll
+D:\Estudo Web\Crawling\CrawlerTribunal\CrawlerTribunal\obj\Debug\netcoreapp3.1\CrawlerTribunal.csprojAssemblyReference.cache
+D:\Estudo Web\Crawling\CrawlerTribunal\CrawlerTribunal\obj\Debug\netcoreapp3.1\CrawlerTribunal.AssemblyInfoInputs.cache
+D:\Estudo Web\Crawling\CrawlerTribunal\CrawlerTribunal\obj\Debug\netcoreapp3.1\CrawlerTribunal.AssemblyInfo.cs
+D:\Estudo Web\Crawling\CrawlerTribunal\CrawlerTribunal\obj\Debug\netcoreapp3.1\CrawlerTribunal.csproj.CoreCompileInputs.cache
+D:\Estudo Web\Crawling\CrawlerTribunal\CrawlerTribunal\obj\Debug\netcoreapp3.1\CrawlerTribunal.csproj.CopyComplete
+D:\Estudo Web\Crawling\CrawlerTribunal\CrawlerTribunal\obj\Debug\netcoreapp3.1\CrawlerTribunal.dll
+D:\Estudo Web\Crawling\CrawlerTribunal\CrawlerTribunal\obj\Debug\netcoreapp3.1\CrawlerTribunal.pdb
+D:\Estudo Web\Crawling\CrawlerTribunal\CrawlerTribunal\obj\Debug\netcoreapp3.1\CrawlerTribunal.genruntimeconfig.cache

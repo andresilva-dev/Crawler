@@ -1,0 +1,15 @@
+D:\Estudo Web\Crawling\CrawlerTribunal\Persistencia\bin\Debug\net5.0\Persistencia.deps.json
+D:\Estudo Web\Crawling\CrawlerTribunal\Persistencia\bin\Debug\net5.0\Persistencia.dll
+D:\Estudo Web\Crawling\CrawlerTribunal\Persistencia\bin\Debug\net5.0\ref\Persistencia.dll
+D:\Estudo Web\Crawling\CrawlerTribunal\Persistencia\bin\Debug\net5.0\Persistencia.pdb
+D:\Estudo Web\Crawling\CrawlerTribunal\Persistencia\bin\Debug\net5.0\Negocio.dll
+D:\Estudo Web\Crawling\CrawlerTribunal\Persistencia\bin\Debug\net5.0\Negocio.pdb
+D:\Estudo Web\Crawling\CrawlerTribunal\Persistencia\obj\Debug\net5.0\Persistencia.csprojAssemblyReference.cache
+D:\Estudo Web\Crawling\CrawlerTribunal\Persistencia\obj\Debug\net5.0\Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudo Web\Crawling\CrawlerTribunal\Persistencia\obj\Debug\net5.0\Persistencia.AssemblyInfoInputs.cache
+D:\Estudo Web\Crawling\CrawlerTribunal\Persistencia\obj\Debug\net5.0\Persistencia.AssemblyInfo.cs
+D:\Estudo Web\Crawling\CrawlerTribunal\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CoreCompileInputs.cache
+D:\Estudo Web\Crawling\CrawlerTribunal\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CopyComplete
+D:\Estudo Web\Crawling\CrawlerTribunal\Persistencia\obj\Debug\net5.0\Persistencia.dll
+D:\Estudo Web\Crawling\CrawlerTribunal\Persistencia\obj\Debug\net5.0\ref\Persistencia.dll
+D:\Estudo Web\Crawling\CrawlerTribunal\Persistencia\obj\Debug\net5.0\Persistencia.pdb

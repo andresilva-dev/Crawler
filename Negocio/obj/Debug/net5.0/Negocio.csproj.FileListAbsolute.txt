@@ -1,0 +1,12 @@
+D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\bin\Debug\net5.0\Negocio.deps.json
+D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\bin\Debug\net5.0\Negocio.dll
+D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\bin\Debug\net5.0\ref\Negocio.dll
+D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\bin\Debug\net5.0\Negocio.pdb
+D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\obj\Debug\net5.0\Negocio.csprojAssemblyReference.cache
+D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\obj\Debug\net5.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\obj\Debug\net5.0\Negocio.AssemblyInfoInputs.cache
+D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\obj\Debug\net5.0\Negocio.AssemblyInfo.cs
+D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\obj\Debug\net5.0\Negocio.csproj.CoreCompileInputs.cache
+D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\obj\Debug\net5.0\Negocio.dll
+D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\obj\Debug\net5.0\ref\Negocio.dll
+D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\obj\Debug\net5.0\Negocio.pdb

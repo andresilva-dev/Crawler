@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pWqrd2N//AKjjvRy8SHuGowtQFDwP2ZAzqVd7J+XkCHvpP6lHmKWzaW6gfQ1X2l3Yp24Bcstv5Z3VMJBIf5Wpg==",
+  "success": true,
+  "projectFilePath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Negocio\\Negocio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CLIENTE\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
