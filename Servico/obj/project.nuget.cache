@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a8ZRvSvXnVzt8LQ6vryx/5G0bqXxVCkV7wUzX93/Oy6sFk1YQVxrVQn864hCQagKTaawmtEUHlhI1tEwtnV/Dw==",
+  "dgSpecHash": "xSo248JI66VQDkDrtDkUMZB9Gulkl2vqPDxTDIp8eA33jFC8g/OSFwS16Xiuzxydp/kNnh3ohjniwC8NMj0i8Q==",
   "success": true,
-  "projectFilePath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Servico\\Servico.csproj",
+  "projectFilePath": "D:\\Estudo Web\\Crawler\\Servico\\Servico.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CLIENTE\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.4\\microsoft.data.sqlite.core.5.0.4.nupkg.sha512",
     "C:\\Users\\CLIENTE\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

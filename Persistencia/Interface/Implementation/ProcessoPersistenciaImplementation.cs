@@ -16,6 +16,11 @@ namespace Persistencia.Inteface.Implementation
         }
         public Processo Atualize(Processo processoAtualizado)
         {
+            if (processoAtualizado == null)
+            {
+                throw new Exception("Não foi informado um processo para atualização");
+            }
+
             var processo = _contexto.Processos.SingleOrDefault(p => p.NumeroDoProcesso == processoAtualizado.NumeroDoProcesso);
 
             if (processo == null)
@@ -38,6 +43,11 @@ namespace Persistencia.Inteface.Implementation
 
         public void Exclua(string numeroDoProcesso)
         {
+            if (string.IsNullOrWhiteSpace(numeroDoProcesso))
+            {
+                throw new Exception("Não foi informado um número de processo para exclusão");
+            }
+
             var processo = _contexto.Processos.SingleOrDefault(p => p.NumeroDoProcesso == numeroDoProcesso);
 
             if (processo != null)
@@ -47,7 +57,7 @@ namespace Persistencia.Inteface.Implementation
                     _contexto.Processos.Remove(processo);
                     _contexto.SaveChanges();
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     throw;
                 }
@@ -56,6 +66,11 @@ namespace Persistencia.Inteface.Implementation
 
         public Processo Insira(Processo processo)
         {
+            if (processo == null)
+            {
+                throw new Exception("Não foi informado um processo para inserção");
+            }
+
             try
             {
                 _contexto.Add(processo);
@@ -71,6 +86,11 @@ namespace Persistencia.Inteface.Implementation
 
         public Processo ObtenhaProcessoPorNumero(string numeroDoProcesso)
         {
+            if (string.IsNullOrWhiteSpace(numeroDoProcesso))
+            {
+                throw new Exception("Não foi informado um número de processo para consulta");
+            }
+
             Processo processo;
             try
             {

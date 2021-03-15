@@ -10,3 +10,15 @@ D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\obj\Debug\net5.0\Negocio.csproj.C
 D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\obj\Debug\net5.0\Negocio.dll
 D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\obj\Debug\net5.0\ref\Negocio.dll
 D:\Estudo Web\Crawling\CrawlerTribunal\Negocio\obj\Debug\net5.0\Negocio.pdb
+D:\Estudo Web\Crawler\Negocio\bin\Debug\net5.0\Negocio.deps.json
+D:\Estudo Web\Crawler\Negocio\bin\Debug\net5.0\Negocio.dll
+D:\Estudo Web\Crawler\Negocio\bin\Debug\net5.0\ref\Negocio.dll
+D:\Estudo Web\Crawler\Negocio\bin\Debug\net5.0\Negocio.pdb
+D:\Estudo Web\Crawler\Negocio\obj\Debug\net5.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudo Web\Crawler\Negocio\obj\Debug\net5.0\Negocio.AssemblyInfoInputs.cache
+D:\Estudo Web\Crawler\Negocio\obj\Debug\net5.0\Negocio.AssemblyInfo.cs
+D:\Estudo Web\Crawler\Negocio\obj\Debug\net5.0\Negocio.csproj.CoreCompileInputs.cache
+D:\Estudo Web\Crawler\Negocio\obj\Debug\net5.0\Negocio.dll
+D:\Estudo Web\Crawler\Negocio\obj\Debug\net5.0\ref\Negocio.dll
+D:\Estudo Web\Crawler\Negocio\obj\Debug\net5.0\Negocio.pdb
+D:\Estudo Web\Crawler\Negocio\obj\Debug\net5.0\Negocio.csprojAssemblyReference.cache

@@ -1020,11 +1020,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Servico\\Servico.csproj",
+      "projectUniqueName": "D:\\Estudo Web\\Crawler\\Servico\\Servico.csproj",
       "projectName": "Servico",
-      "projectPath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Servico\\Servico.csproj",
+      "projectPath": "D:\\Estudo Web\\Crawler\\Servico\\Servico.csproj",
       "packagesPath": "C:\\Users\\CLIENTE\\.nuget\\packages\\",
-      "outputPath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Servico\\obj\\",
+      "outputPath": "D:\\Estudo Web\\Crawler\\Servico\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CLIENTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1041,11 +1041,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Negocio\\Negocio.csproj": {
-              "projectPath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Negocio\\Negocio.csproj"
+            "D:\\Estudo Web\\Crawler\\Negocio\\Negocio.csproj": {
+              "projectPath": "D:\\Estudo Web\\Crawler\\Negocio\\Negocio.csproj"
             },
-            "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Persistencia\\Persistencia.csproj"
+            "D:\\Estudo Web\\Crawler\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "D:\\Estudo Web\\Crawler\\Persistencia\\Persistencia.csproj"
             }
           }
         }

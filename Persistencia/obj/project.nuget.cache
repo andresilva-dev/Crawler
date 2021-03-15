@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LrmSY1OE/t8GZARg5BQlHnxqbSPNEzjgN6oJBYd21AlnHrq2oUa8HnTaFdlPrf4XrzRx6kDU/qNcxNVnVAefGQ==",
+  "dgSpecHash": "2qoakpgYC0DbubCnj05nJu18iNDBZ9H82djdV9P4bUZpB5sV+RsqP9uIZOalysltt3xzdgcamLetEek3/SehNQ==",
   "success": true,
-  "projectFilePath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "D:\\Estudo Web\\Crawler\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CLIENTE\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.4\\microsoft.data.sqlite.core.5.0.4.nupkg.sha512",
     "C:\\Users\\CLIENTE\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

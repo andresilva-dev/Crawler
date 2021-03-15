@@ -2,10 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace Negocio
 {
@@ -29,9 +25,7 @@ namespace Negocio
             get => _numeroDoProcesso;
             set 
             {
-                var regex = new Regex("[^0-9]");
-                var numeros = regex.Replace(value ?? string.Empty, string.Empty);
-
+                var numeros = UtilidadeDeFormatacao.ObtenhaSomenteParteNumerica(value);
                 if (numeros.Length != 20)
                 {
                     throw new Exception("O número informado para o processo é inválido");
@@ -53,9 +47,7 @@ namespace Negocio
             get => _numeroDeOrigemProcesso;
             set
             {
-                var regex = new Regex("[^0-9]");
-                var numeros = regex.Replace(value ?? string.Empty, string.Empty);
-
+                var numeros = UtilidadeDeFormatacao.ObtenhaSomenteParteNumerica(value);
                 if (numeros.Length != 20)
                 {
                     throw new Exception("O número de origem informado para o processo é inválido");

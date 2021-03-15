@@ -1221,11 +1221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "D:\\Estudo Web\\Crawler\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\WebApi\\WebApi.csproj",
+      "projectPath": "D:\\Estudo Web\\Crawler\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\CLIENTE\\.nuget\\packages\\",
-      "outputPath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\WebApi\\obj\\",
+      "outputPath": "D:\\Estudo Web\\Crawler\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CLIENTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1242,11 +1242,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Negocio\\Negocio.csproj": {
-              "projectPath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Negocio\\Negocio.csproj"
+            "D:\\Estudo Web\\Crawler\\Negocio\\Negocio.csproj": {
+              "projectPath": "D:\\Estudo Web\\Crawler\\Negocio\\Negocio.csproj"
             },
-            "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Servico\\Servico.csproj": {
-              "projectPath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Servico\\Servico.csproj"
+            "D:\\Estudo Web\\Crawler\\Servico\\Servico.csproj": {
+              "projectPath": "D:\\Estudo Web\\Crawler\\Servico\\Servico.csproj"
             }
           }
         }

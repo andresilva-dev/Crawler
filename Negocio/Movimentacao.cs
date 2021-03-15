@@ -16,5 +16,20 @@ namespace Negocio
         [ForeignKey("PROCID")]
         [Column("MOVPROCESSOID")]
         public int ProcessoId { get; set; }
+
+        public override bool Equals(object obj)
+        {
+            return (obj is Movimentacao movimentacao) && movimentacao.Id == Id;
+        }
+
+        public override int GetHashCode()
+        {
+            return Id.GetHashCode() * ProcessoId.GetHashCode();
+        }
+
+        public override string ToString()
+        {
+            return $"Movimentacao: {Id}";
+        }
     }
 }

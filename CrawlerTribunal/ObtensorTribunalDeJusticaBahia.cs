@@ -1,11 +1,9 @@
 ﻿using HtmlAgilityPack;
 using Negocio;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
-using System.Web;
 
 namespace CrawlerTribunal
 {
@@ -95,20 +93,13 @@ namespace CrawlerTribunal
                 movimentacoes.Add(new Movimentacao()
                 {
                     Data = itens.First().InnerText.Trim(),
-                    Conteudo = ObtenhaConteudoDecodificado(itens.Last().InnerText.Replace("\n", "").Replace("\t", "").Replace("\r", "").Trim())
+                    Conteudo = UtilidadeDeFormatacao.ObtenhaConteudoDecodificado( UtilidadeDeFormatacao.ObtenhaTextoSemEspacos(itens.Last().InnerText))
                 });
             }
             
             return movimentacoes;
         }
 
-        private static string ObtenhaConteudoDecodificado(string conteudoCodificado)
-        {
-            var conteudoDecodificado = new StringWriter();
-            HttpUtility.HtmlDecode(conteudoCodificado, conteudoDecodificado);
-
-            return conteudoDecodificado.ToString();
-        }
         private static string ObtenhaValorDoElemento(HtmlNode elemento)
         {
             return elemento.SelectNodes(".//span").First().InnerText.Trim();

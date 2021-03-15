@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Net;
+using System.Threading;
 
 namespace CrawlerTribunal
 {
@@ -11,6 +12,9 @@ namespace CrawlerTribunal
         {
             Console.WriteLine("Obtém informações do processo: 0809979-67.2015.8.05.0080 através do crawler");
             var processo = ObtensorTribunalDeJusticaBahia.ObtenhaInformacoesDoProcesso();
+
+            Console.WriteLine("Aguarda alguns segundos para que a Api seja iniciada");
+            Thread.Sleep(5000);
 
             var apiHelper = new ApiProcessoHelper();
             Console.WriteLine("Insere processo 0809979-67.2015.8.05.0080 e suas movimentações no banco de dados através da API");

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f3f6ZhBoIqfk/JT7FS+83llwosIT1HI5sSJEjB9t6OjUxWT12ckovouCCXNbIGHwOmkHUmQ+rxEE0gkcXXl2Xg==",
+  "dgSpecHash": "G80iDXtV0mLbWtFxfFQAvZDNq9vHjcKFkulVuUuY45bJ7F0RrkitxEkYg1lRKhKtRwsRBHZZUKXnzrdT9xqVHQ==",
   "success": true,
-  "projectFilePath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\CrawlerTribunal\\CrawlerTribunal.csproj",
+  "projectFilePath": "D:\\Estudo Web\\Crawler\\CrawlerTribunal\\CrawlerTribunal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CLIENTE\\.nuget\\packages\\htmlagilitypack.netcore\\1.5.0.1\\htmlagilitypack.netcore.1.5.0.1.nupkg.sha512",
     "C:\\Users\\CLIENTE\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",

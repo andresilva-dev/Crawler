@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\CrawlerTribunal\\CrawlerTribunal.csproj": {}
+    "D:\\Estudo Web\\Crawler\\CrawlerTribunal\\CrawlerTribunal.csproj": {}
   },
   "projects": {
-    "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\CrawlerTribunal\\CrawlerTribunal.csproj": {
+    "D:\\Estudo Web\\Crawler\\CrawlerTribunal\\CrawlerTribunal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\CrawlerTribunal\\CrawlerTribunal.csproj",
+        "projectUniqueName": "D:\\Estudo Web\\Crawler\\CrawlerTribunal\\CrawlerTribunal.csproj",
         "projectName": "CrawlerTribunal",
-        "projectPath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\CrawlerTribunal\\CrawlerTribunal.csproj",
+        "projectPath": "D:\\Estudo Web\\Crawler\\CrawlerTribunal\\CrawlerTribunal.csproj",
         "packagesPath": "C:\\Users\\CLIENTE\\.nuget\\packages\\",
-        "outputPath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\CrawlerTribunal\\obj\\",
+        "outputPath": "D:\\Estudo Web\\Crawler\\CrawlerTribunal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CLIENTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Negocio\\Negocio.csproj": {
-                "projectPath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Negocio\\Negocio.csproj"
+              "D:\\Estudo Web\\Crawler\\Negocio\\Negocio.csproj": {
+                "projectPath": "D:\\Estudo Web\\Crawler\\Negocio\\Negocio.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Negocio\\Negocio.csproj": {
+    "D:\\Estudo Web\\Crawler\\Negocio\\Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Negocio\\Negocio.csproj",
+        "projectUniqueName": "D:\\Estudo Web\\Crawler\\Negocio\\Negocio.csproj",
         "projectName": "Negocio",
-        "projectPath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Negocio\\Negocio.csproj",
+        "projectPath": "D:\\Estudo Web\\Crawler\\Negocio\\Negocio.csproj",
         "packagesPath": "C:\\Users\\CLIENTE\\.nuget\\packages\\",
-        "outputPath": "D:\\Estudo Web\\Crawling\\CrawlerTribunal\\Negocio\\obj\\",
+        "outputPath": "D:\\Estudo Web\\Crawler\\Negocio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CLIENTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
