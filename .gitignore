@@ -1,0 +1,9 @@
+*.user
+*.suo
+*.swo
+*.swp
+*.config
+*.DotSettings
+
+.vs/
+bin/

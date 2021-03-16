@@ -13,5 +13,7 @@ namespace Persistencia
         }
 
         public DbSet<Processo> Processos { get; set; }
+
+        public DbSet<Movimentacao> Movimentacoes { get; set; }
     }
 }

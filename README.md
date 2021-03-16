@@ -11,9 +11,12 @@ Após esta etapa, basta executar a aplicação. Neste momento, uma tela de conso
 - Obter as informações do processo 0809979-67.2015.8.05.0080 através do crawler;
 - Aguardar alguns segundos para garantir que a Api tenha sido inicializada;
 - Enviar os dados do processo 0809979-67.2015.8.05.0080 para inserção no banco através da Api;
+- Criar um processo mock número 5555555-22.2015.4.94.5555;
+- Enviar os dados do processo 5555555-22.2015.4.94.5555 para inserção no banco através da Api;
 - Consultar os dados do processo 0809979-67.2015.8.05.0080 na base de dados através da Api;
 - Consultar todos os processos persistidos através da Api;
 - Excluir o processo número 0809979-67.2015.8.05.0080 do banco através da Api;
+- Excluir o processo número 5555555-22.2015.4.94.5555 do banco através da Api;
 
 ## Observações
 

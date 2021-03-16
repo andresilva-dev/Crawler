@@ -4,44 +4,45 @@ using System.Net;
 
 namespace CrawlerTribunal
 {
-    public class ApiProcessoHelper : IDisposable
+    public class ApiProcessoHelper
     {
         private string _uri => "https://localhost:44369/api/processo";
-        private WebClient _webClient;
-        private WebClient WebClient
-        {
-            get
-            {
-                if (_webClient == null)
-                {
-                    _webClient = new WebClient();
-                    _webClient.Headers.Add("Content-Type:application/json");
-                    _webClient.Headers.Add("Accept:application/json");
-                }
-                return _webClient;
-            }
-        }
-
         public T ExecutePostAsync<T>(object conteudo)
         {
-            var resultado = WebClient.UploadString(_uri, JsonConvert.SerializeObject(conteudo));
+            var resultado = string.Empty;
+
+            using (WebClient wc = new WebClient())
+            {
+                wc.Headers.Add("Content-Type:application/json");
+                wc.Headers.Add("Accept:application/json");
+                resultado = wc.UploadString(_uri, JsonConvert.SerializeObject(conteudo));
+            }
+                
             return JsonConvert.DeserializeObject<T>(resultado);
         }
 
         public void ExecuteDeleteAsync(object conteudo)
         {
-            WebClient.UploadString(_uri+"/"+ conteudo.ToString(), "DELETE", "");
+            using (WebClient wc = new WebClient())
+            {
+                wc.Headers.Add("Content-Type:application/json");
+                wc.Headers.Add("Accept:application/json");
+                wc.UploadString(_uri + "/" + conteudo.ToString(), "DELETE", "");
+            }
         }
 
         public T ExecuteGetAsync<T>(object conteudo)
         {
-            var resultado = WebClient.DownloadString($"{_uri}/{conteudo}");
-            return JsonConvert.DeserializeObject<T>(resultado);
-        }
+            var resultado = string.Empty;
 
-        public void Dispose()
-        {
-            _webClient.Dispose();
+            using (WebClient wc = new WebClient())
+            {
+                wc.Headers.Add("Content-Type:application/json");
+                wc.Headers.Add("Accept:application/json");
+                resultado = wc.DownloadString($"{_uri}/{conteudo}");
+            }
+
+            return JsonConvert.DeserializeObject<T>(resultado);
         }
     }
 }

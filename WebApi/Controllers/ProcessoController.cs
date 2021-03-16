@@ -23,10 +23,10 @@ namespace WebApi.Controllers
             return Ok(_processoService.ObtenhaTodos());
         }
 
-        [HttpGet("{numeroDoProesso}")]
-        public IActionResult Get(string numeroDoProesso)
+        [HttpGet("{numeroDoProcesso}")]
+        public IActionResult Get(string numeroDoProcesso)
         {
-            var processo = _processoService.ObtenhaProcessoPorNumero(numeroDoProesso);
+            var processo = _processoService.ObtenhaProcessoPorNumero(numeroDoProcesso);
             if (processo == null)
             {
                 return NotFound();
