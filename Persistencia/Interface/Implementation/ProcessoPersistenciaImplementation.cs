@@ -21,7 +21,7 @@ namespace Persistencia.Inteface.Implementation
                 throw new Exception("Não foi informado um processo para atualização");
             }
 
-            var processo = _contexto.Processos.SingleOrDefault(p => p.NumeroDoProcesso == processoAtualizado.NumeroDoProcesso);
+            var processo = _contexto.Processos.Include(p => p.Movimentacoes).SingleOrDefault(p => p.NumeroDoProcesso == processoAtualizado.NumeroDoProcesso);
 
             if (processo == null)
             {
@@ -30,7 +30,13 @@ namespace Persistencia.Inteface.Implementation
             
             try
             {
-                _contexto.Entry(processo).CurrentValues.SetValues(processoAtualizado);
+                //_contexto.Entry(processo).CurrentValues.SetValues(processoAtualizado);
+                //_contexto.Entry(processo).State = EntityState.Modified;
+                //_contexto.SaveChanges();
+
+                processo.MergeProperties(processoAtualizado);
+
+                _contexto.Processos.Update(processo);
                 _contexto.SaveChanges();
             }
             catch (Exception)
