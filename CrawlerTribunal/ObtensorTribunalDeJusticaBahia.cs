@@ -9,9 +9,9 @@ namespace CrawlerTribunal
 {
     public static class ObtensorTribunalDeJusticaBahia
     {
-        public static Processo ObtenhaInformacoesDoProcesso()
+        public static Processo ObtenhaInformacoesDoProcesso(string numeroDoProcesso)
         {
-            var url = @"http://esaj.tjba.jus.br/cpo/sg/search.do;jsessionid=51F6CF2B414333AB2B6AF450D7980B05.cposg4?paginaConsulta=1&cbPesquisa=NUMPROC&tipoNuProcesso=UNIFICADO&numeroDigitoAnoUnificado=0809979-67.2015&foroNumeroUnificado=0080&dePesquisaNuUnificado=0809979-67.2015.8.05.0080&dePesquisa=";
+            var url = @"http://esaj.tjba.jus.br/cpo/sg/search.do;jsessionid=51F6CF2B414333AB2B6AF450D7980B05.cposg4?paginaConsulta=1&cbPesquisa=NUMPROC&tipoNuProcesso=UNIFICADO&numeroDigitoAnoUnificado=0809979-67.2015&foroNumeroUnificado=0080&dePesquisaNuUnificado=" + numeroDoProcesso + "&dePesquisa=";
 
             string markup;
             using (WebClient wc = new WebClient())
